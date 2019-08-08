@@ -15,3 +15,5 @@ FXML - storeapplicationlogin.fxml,storeapplicationhome.fxml,storeapplicationsign
 Compile - StoreApplicationMain.java,StoreApplicationSignupController.java,
         StoreApplicationSignupComplete.java,StoreApplicationDatabase.java(Test),
         DatabaseConfigs.java,DatabaseHandler.java
+        
+Commands - javac, java
