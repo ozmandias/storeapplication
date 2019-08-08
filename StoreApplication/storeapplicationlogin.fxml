@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StoreApplicationLoginController">
+   <children>
+      <TextField fx:id="txtfielduser" layoutX="175.0" layoutY="105.0" prefWidth="250.0" promptText="EnterUserName" style="-fx-background-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passfieldpassword" layoutX="175.0" layoutY="173.0" prefWidth="250.0" promptText="EnterPassword" style="-fx-background-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="btnlogin" layoutX="366.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnloginclick" style="-fx-background-color: #21A2F1;" text="Login" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnsignup" layoutX="425.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnsignupclick" style="-fx-background-color: #2D3447;" text="SignUp" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="chkboxremember" layoutX="175.0" layoutY="247.0" mnemonicParsing="false" text="RememberMe" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="94.0" layoutY="110.0" text="UserName" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="178.0" text="Password" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="14.0" text="StoreApplication" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
